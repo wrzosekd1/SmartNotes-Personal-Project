@@ -1,0 +1,152 @@
+
+body{
+    font-family: Arial;
+}
+
+#banner{
+    background-color: #00bfff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    z-index: -1;
+}
+#banner h1{
+    float: left;
+    margin-left: 400px;
+    font-size: 50px;
+    margin-top: 0;
+    color:white;
+    cursor: pointer;
+  }
+
+#banner h3{
+    float: right;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right:20px;
+    color:White;
+    cursor: pointer;
+}
+#banner h3:hover{
+    color: lightgray;
+}
+#container{
+    margin: auto;
+    width: 900px;
+    padding-top: 100px;
+}
+
+#welcome{
+    float: left;
+}
+#forms{
+    float: right;
+}
+#login{
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 20px;
+}
+#login:hover{
+    border-style: solid;
+    border-color: #00bfff;
+}
+#register{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-style: solid;
+    padding: 35px;
+    border-radius: 20px;
+}
+#register:hover{
+    border-color: #00bfff;
+}
+
+.form{
+    border-style: solid;
+    border-color: #00bfff;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.Button{
+    border-radius: 20px;
+    background-color: #00bfff;
+    padding: 8px;
+    margin      : 0;
+    border      : 0;
+    color: white;
+    font-family : inherit;
+    font-size   : 1em;
+    cursor      : pointer;
+
+}
+
+.Button:hover{
+    background-color: #00abe5;
+}
+
+
+
+
+.TextFields{
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: none;
+}
+.TextFields:focus{
+    border-color: #00bfff;
+}
+
+.classTable {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.classTable th {
+    border: 1px solid black;
+    height: 40px;
+}
+.classTable td {
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+}
+.classTable tr:nth-child(odd) {
+    background-color: #e5f8ff;
+}
+.classTable tr:nth-child(even) {
+    background-color: #ccf2ff;
+}
+
+
+#containerClassInfo{
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+#courseInfo{
+
+    float: left;
+}
+#notes{
+    margin-top: 50px;
+    float: right;
+}
+#notesDescription{
+    resize: none;
+}
+
+#notesBody{
+    resize: none;
+}
+
