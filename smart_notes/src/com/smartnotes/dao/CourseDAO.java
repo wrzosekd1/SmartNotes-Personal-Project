@@ -1,5 +1,5 @@
 package com.smartnotes.dao;
-//test
+//test branches
 import java.util.List;
 
 import com.smartnotes.entity.Course;
